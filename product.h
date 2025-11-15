@@ -22,7 +22,6 @@ public:
     int get_exists_amount() const { return exists_amount; }
     int get_bought() const { return bought; }
     const std::string format() const;
-    
     friend std::ostream &operator<<(std::ostream &os, const Product &product);
 };
 
