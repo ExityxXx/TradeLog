@@ -17,5 +17,19 @@
     "code-runner.fileDirectoryAsCwd": true,
     "code-runner.executorMap": {
         "cpp": "g++ -std=c++20 -O4 $fileName -o $fileNameWithoutExt && $fileNameWithoutExt"
+    },
+    "files.associations": {
+        "string": "cpp",
+        "iostream": "cpp",
+        "string_view": "cpp",
+        "format": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "system_error": "cpp",
+        "typeinfo": "cpp",
+        "variant": "cpp",
+        "iosfwd": "cpp"
     }
 }
